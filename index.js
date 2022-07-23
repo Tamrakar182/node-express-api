@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.use('/users', usersRoutes);
 
-app.get('/', (req, res) =>  res.send('Hello from Homeplage.'));
+app.get('/', (req, res) =>  res.send('Hello from Homepage.'));
 
 app.listen(PORT, () => console.log(`Server Running On PORT: http://localhost:${PORT}`));
 
